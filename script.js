@@ -95,6 +95,7 @@ btnNext.addEventListener("click", () => {
 document.getElementById("btnReload").addEventListener("click", () => {
   quiz.hidden = false;
   result.hidden = true;
+  scores = 0;
   currentCuestion = 0;
   loadQuestion();
 });
