@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.container {
+  width: 60%;
+  max-width: 600px;
+  height: 500px;
+  text-align: center;
+  color: #000000;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+}
+
+.option {
+  padding: 10px 20px;
+  margin: 10px;
+  border: 1px solid #000000;
+  text-align: left;
+  border-radius: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+.selected {
+  background-color: #f4f1f1;
+}
+
+.correct {
+  background-color: #bee6be;
+}
+
+.wrong {
+  background-color: #ecb8b8;
+}
